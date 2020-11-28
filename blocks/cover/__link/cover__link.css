@@ -1,0 +1,24 @@
+.cover__link {
+  margin-top: 92px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  max-width: 1184px;
+  height: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__link {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__link {
+    margin-top: 66px;
+  }
+}

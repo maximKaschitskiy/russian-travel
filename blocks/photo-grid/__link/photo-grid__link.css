@@ -1,0 +1,8 @@
+.photo-gird__link {
+  display: flex;
+  background-color: blue;
+  z-index: 3;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: center;
+}
