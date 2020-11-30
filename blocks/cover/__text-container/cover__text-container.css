@@ -5,9 +5,3 @@
   flex-direction: column;
   align-self: center;
 }
-
-@media screen and (max-width: 320px) {
-  .cover__text-container {
-    width: calc(17% + 233px);
-  }
-}

@@ -7,18 +7,11 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: 650px) {
+@media and (max-width: 650px) {
   .footer__links {
     flex-direction: column;
     margin-top: 64px;
     margin-bottom: 48px;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .footer__links {
-    flex-direction: column;
-    margin-top: 64px;
     margin-bottom: 0px;
   }
 }

@@ -5,32 +5,20 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 114%;
+  text-align: right;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 650px) {
   .footer__copyright {
-
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .footer__copyright {
-
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .footer__copyright {
-
-  }
+    text-align: left;
+    margin-top: 48px;
+    margin-left: 16px;
+    line-height: 100%;
 }
 
 @media screen and (max-width: 320px) {
   .footer__copyright {
     font-size: 14px;
-    line-height: 14px;
-    margin-top: 48px;
-    margin-left: 16px;
   }
 }
