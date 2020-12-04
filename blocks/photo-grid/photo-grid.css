@@ -1,7 +1,7 @@
 .photo-grid {
   display: grid;
   grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fill, minmax(288px, auto));
+  grid-template-columns: repeat(auto-fill, minmax(284px, auto));
   gap: 16px;
   justify-content: center;
   grid-auto-flow: row dense;
@@ -13,7 +13,7 @@
 
 @media screen and (min-width: 1281px) and (max-width: 1920px) {
   .photo-grid {
-    width: 92.5%;
+    max-width: 1184px;
   }
 }
 

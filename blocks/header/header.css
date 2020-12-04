@@ -1,6 +1,5 @@
 .header {
   width: 92.5%;
-  height: calc(2.23% + 34px);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
@@ -11,14 +10,12 @@
 @media screen and (max-width: 320px) {
 	.header { 
         width: 90%;
-        height: 13.12%;
     }
  }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
 	.header { 
         width: calc(96.42% - 20px);
-        height: calc(2.23% + 34px);
     }
  }
 

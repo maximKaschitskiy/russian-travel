@@ -1,6 +1,7 @@
 .cover__background {
   object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
   z-index: 1;
+  position: absolute;
 }
