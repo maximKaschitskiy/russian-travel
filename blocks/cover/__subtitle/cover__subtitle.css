@@ -7,8 +7,8 @@
   color: #FFFFFF;
   margin-top: calc(1% + 12px);
   margin-bottom: 0;
-  align-self: center;
   width: calc(16.07% + 236px);
+  z-index: 2;
 }
 
 @media screen and (max-width: 320px) {
@@ -22,7 +22,6 @@
 @media screen and (min-width: 321px) and (max-width: 768px) {
 	.cover__subtitle {
         width: calc(16.07% + 236px);
-
     }
  }
 

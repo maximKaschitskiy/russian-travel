@@ -10,6 +10,7 @@
   text-transform: uppercase;
   text-align: left;
   color: #FFFFFF;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 320px) {

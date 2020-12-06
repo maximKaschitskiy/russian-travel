@@ -1,6 +1,6 @@
 .intro {
   display: flex;
-  width: 76.87%;
+  max-width: 984px;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
@@ -8,30 +8,30 @@
 
 @media screen and (max-width: 320px) {
 	.intro {
-        width: 90%; 
+      width: 90%; 
     }
  }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
 	.intro {
-        width: calc(96.42% - 20px);
+      width: calc(96.42% - 20px);
     }
  }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	.intro {
-        width: calc(81.25% + 96px);
+      width: calc(81.25% + 96px);
     }
  }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 	.intro {
-        width: calc(21.87% + 704px);
+      width: calc(21.87% + 704px);
     }
  }
 
 @media screen and (min-width: 1281px) and (max-width: 1920px) {
 	.intro {
-        width: 76.87%;
+      width: 76.87%;
     }
  }

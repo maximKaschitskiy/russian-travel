@@ -1,8 +1,13 @@
-.photo-gird__link {
+.photo-grid__link {
   display: flex;
-  background-color: blue;
   z-index: 3;
   flex-wrap: wrap;
   margin: 0;
   justify-content: center;
+  transition: opacity 0.25s linear;
+  opacity: 1;
+}
+
+.photo-grid__link:hover {
+  opacity: 0.5;
 }

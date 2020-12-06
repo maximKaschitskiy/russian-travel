@@ -1,5 +1,5 @@
 .header {
-  width: 92.5%;
+  max-width: 1184px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0;
@@ -28,11 +28,5 @@
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
 	.header { 
         width: calc(100% - 96px); 
-    }
- }
-
-@media screen and (min-width: 1281px) and (max-width: 1920px) {
-	.header { 
-        width: 92.5%; 
     }
  }

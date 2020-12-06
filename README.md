@@ -22,4 +22,4 @@
 
 # Хватит слов!
 
-**Пора переходить по ссылке: [клик!](https://maximkaschitskiy.github.io/russian-travel/) .
+**Пора переходить по ссылке:** [клик!](https://maximkaschitskiy.github.io/russian-travel/)
