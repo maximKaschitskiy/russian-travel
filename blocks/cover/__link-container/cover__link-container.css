@@ -1,24 +1,23 @@
 .cover__link-container {
     display: flex;
-    flex-direction: column;
     position: relative;
-    max-width: 1184px;
-    max-height: 740px;
-    width: 92.5vw;
-    align-items: center;
+    width: 1184px;
+    min-height: 740px;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1px) and (max-width: 1024px) {
 	.cover__link-container {
-        height: 62.5vw;
-        width: 100vw;
-        max-width: 100%;
+      width: 100vw;
+      min-height: 62.5vw;
     }
  }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
 	.cover__link-container {
-        height: 57.81vw;
+      width: 92.5vw;
+      min-height: 57.81vw;
     }
  }

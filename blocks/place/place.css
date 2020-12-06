@@ -39,13 +39,6 @@
     }
  }
 
-@media screen and (min-width: 1281px) and (max-width: 1920px) {
-  .place { 
-    width: 76.87%;
-    gap: 60px 72px;
-    }
- }
-
 .place:first-child {
   margin-top: 92px;
 }

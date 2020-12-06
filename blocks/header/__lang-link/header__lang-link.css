@@ -7,6 +7,7 @@
   color: #FFFFFF;
   opacity: 1;
   transition: opacity 0.1s linear;
+  margin-right: 18px;
 }
 
 @media screen and (max-width: 320px) {
@@ -17,8 +18,8 @@
   }
 }
 
-.header__lang-link:first-child {
-      margin-right: 18px;
+.header__lang-link:last-child {
+      margin-right: 0;
 }
 
 .header__lang-link:hover {
