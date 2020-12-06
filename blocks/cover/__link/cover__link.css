@@ -1,24 +1,37 @@
 .cover__link {
     text-decoration: none;
     display: flex;
-    width: max-content;
     margin-top: 92px;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
 }
 
 .cover__link:hover .cover__overlay {
     opacity: 0.8;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-	.cover__link-container {
+@media screen and (max-width: 320px) {
+	.cover__link {
       margin-top: 66px;
     }
  }
 
-@media screen and (min-width: 769px) and (max-width: 1280px) {
-	.cover__link-container {
+@media screen and (min-width: 321px) and (max-width: 768px) {
+	.cover__link {
       margin-top: 90px;
     }
  }
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+	.cover__link {
+      margin-top: 92px;
+    }
+ }
+
+@media screen and (min-width: 1025px) and (max-width: 1280px)  {
+	.cover__link {
+        width: max-content;
+    }
+ }
+ 
