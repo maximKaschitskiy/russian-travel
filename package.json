@@ -5,7 +5,7 @@
   "homepage": "https://maximkaschitskiy.github.io/russian-travel/",
   "private": false,
   "scripts": {
-    "start": "parcel",
+    "start": "parcel serve src/index.html",
     "build": "parcel build src/index.html",
     "dev": "parcel serve src/index.html",
     "deploy": "gh-pages -d dist"
