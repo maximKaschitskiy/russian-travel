@@ -24,4 +24,7 @@ https://maximkaschitskiy.github.io/russian-travel/
 
 ## Hot to run
 
-Clone reposetory and run as website locally.
+```
+npm i
+npm run start
+```
