@@ -4,6 +4,10 @@
 Welcome to an exciting visual trip through Russia.
 You will find out which places you need to visit right now.
 
+## Release:
+
+https://maximkaschitskiy.github.io/russian-travel/
+
 ## Screenshots
 
 ![russian-travel-screenshot](https://user-images.githubusercontent.com/67905360/174487566-8d847dd1-bf64-4ca5-a62d-8a3942e9b655.png)
